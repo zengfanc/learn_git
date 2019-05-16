@@ -1,5 +1,5 @@
 1.learn branch and merge
 2.learn checkout 
-3.conflict
-4.continue
-5.sleep
+3.learn log
+4.learn reflog
+5.have a bath
