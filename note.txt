@@ -1,2 +1,4 @@
 1.learn branch and merge
 2.learn checkout 
+3.learn log
+4.learn reflog
