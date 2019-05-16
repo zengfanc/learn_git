@@ -1,3 +1,4 @@
 1.learn branch and merge
 2.learn checkout 
 3.conflict
+4.continue
