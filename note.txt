@@ -2,3 +2,4 @@
 2.learn checkout 
 3.learn log
 4.learn reflog
+5.have a bath
