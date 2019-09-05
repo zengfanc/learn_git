@@ -1,0 +1,1 @@
+cmd='/home/zfc/下载/clion-2019.2/bin/cmake/linux/bin/cmake;-C<TMP_DIR>/google-benchmark-libcxx-cache-$<CONFIG>.cmake;-GCodeBlocks - Unix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

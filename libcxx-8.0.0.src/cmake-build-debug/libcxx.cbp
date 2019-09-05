@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libcxx"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\include\;CMake Files\lib\;CMake Files\benchmarks\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\benchmarks\;CMake Files\cmake-build-debug\benchmarks\benchmark-libcxx\;CMake Files\cmake-build-debug\benchmarks\benchmark-libcxx\tmp\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-cxx-headers">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 install-cxx-headers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx-headers">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 cxx-headers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-cxx-headers-stripped">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 install-cxx-headers-stripped"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-libcxx-headers">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 install-libcxx-headers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-libcxx-headers-stripped">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 install-libcxx-headers-stripped"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-libcxx">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 install-libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-cxx">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 install-cxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx_shared">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/libc++.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx_shared"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx_shared/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/libc++.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx_objects">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/cxx_objects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx_objects"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx_objects/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/cxx_objects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx_objects/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-cxx-stripped">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 install-cxx-stripped"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx_static">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/libc++.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx_static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx_static/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/libc++.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx_static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx_filesystem">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/libc++fs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx_filesystem"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx_filesystem/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/libc++fs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx_filesystem/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx_experimental">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/libc++experimental.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx_experimental"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx_experimental/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/libc++experimental.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 cxx_experimental/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="google-benchmark-libcxx">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 google-benchmark-libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="function_libcxx">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/function.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 function_libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="function_libcxx/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/function.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 function_libcxx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filesystem_libcxx">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/filesystem.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 filesystem_libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filesystem_libcxx/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/filesystem.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 filesystem_libcxx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxx-benchmarks">
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 cxx-benchmarks"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ordered_set_libcxx">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/ordered_set.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 ordered_set_libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ordered_set_libcxx/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/ordered_set.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 ordered_set_libcxx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithms.partition_point_libcxx">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/algorithms.partition_point.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 algorithms.partition_point_libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithms.partition_point_libcxx/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/algorithms.partition_point.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 algorithms.partition_point_libcxx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithms_libcxx">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/algorithms.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 algorithms_libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithms_libcxx/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/algorithms.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 algorithms_libcxx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_libcxx">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/string.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 string_libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_libcxx/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/string.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 string_libcxx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stringstream_libcxx">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/stringstream.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 stringstream_libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stringstream_libcxx/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/stringstream.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 stringstream_libcxx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unordered_set_operations_libcxx">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/unordered_set_operations.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 unordered_set_operations_libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unordered_set_operations_libcxx/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/unordered_set_operations.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 unordered_set_operations_libcxx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util_smartptr_libcxx">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/util_smartptr.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 util_smartptr_libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util_smartptr_libcxx/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/util_smartptr.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 util_smartptr_libcxx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector_operations_libcxx">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/vector_operations.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 vector_operations_libcxx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector_operations_libcxx/fast">
+				<Option output="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/vector_operations.libcxx.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LIBCPP_BUILDING_LIBRARY"/>
+					<Add option="-D_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add directory="/home/zfc/workspace/libcxx-8.0.0.src/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 vector_operations_libcxx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/algorithms.bench.cpp">
+			<Option target="algorithms_libcxx"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/algorithms.partition_point.bench.cpp">
+			<Option target="algorithms.partition_point_libcxx"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/filesystem.bench.cpp">
+			<Option target="filesystem_libcxx"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/function.bench.cpp">
+			<Option target="function_libcxx"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/ordered_set.bench.cpp">
+			<Option target="ordered_set_libcxx"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/string.bench.cpp">
+			<Option target="string_libcxx"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/stringstream.bench.cpp">
+			<Option target="stringstream_libcxx"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/unordered_set_operations.bench.cpp">
+			<Option target="unordered_set_operations_libcxx"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/util_smartptr.bench.cpp">
+			<Option target="util_smartptr_libcxx"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/vector_operations.bench.cpp">
+			<Option target="vector_operations_libcxx"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/algorithm.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/any.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/bind.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/charconv.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/chrono.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/condition_variable.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/debug.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/exception.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/functional.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/future.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/hash.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/ios.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/iostream.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/locale.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/memory.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/mutex.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/new.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/optional.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/random.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/regex.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/shared_mutex.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/stdexcept.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/string.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/strstream.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/system_error.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/thread.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/typeinfo.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/utility.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/valarray.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/variant.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/lib/CMakeFiles/cxx_objects.dir/__/src/vector.cpp.o">
+			<Option target="cxx_shared"/>
+			<Option target="cxx_static"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/algorithm.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/any.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/bind.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/charconv.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/chrono.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/condition_variable.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/debug.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/exception.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/experimental/memory_resource.cpp">
+			<Option target="cxx_experimental"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/filesystem/directory_iterator.cpp">
+			<Option target="cxx_filesystem"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/filesystem/int128_builtins.cpp">
+			<Option target="cxx_filesystem"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/filesystem/operations.cpp">
+			<Option target="cxx_filesystem"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/functional.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/future.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/hash.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/ios.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/iostream.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/locale.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/memory.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/mutex.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/new.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/optional.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/random.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/regex.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/shared_mutex.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/stdexcept.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/string.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/strstream.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/system_error.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/thread.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/typeinfo.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/utility.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/valarray.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/variant.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/src/vector.cpp">
+			<Option target="cxx_objects"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake/config-ix.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake/Modules/CheckLibcxxAtomic.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake/Modules/HandleCompilerRT.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake/Modules/HandleLibCXXABI.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake/Modules/HandleLibcxxFlags.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake/Modules/HandleOutOfTreeLLVM.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake/Modules/MacroEnsureOutOfSourceBuild.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/benchmarks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\benchmarks\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug/benchmarks/benchmark-libcxx/tmp/google-benchmark-libcxx-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\benchmarks\benchmark-libcxx\tmp\"/>
+		</Unit>
+		<Unit filename="/home/zfc/workspace/libcxx-8.0.0.src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

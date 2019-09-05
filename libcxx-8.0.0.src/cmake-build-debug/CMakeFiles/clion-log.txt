@@ -1,0 +1,108 @@
+/home/zfc/下载/clion-2019.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zfc/workspace/libcxx-8.0.0.src
+-- The CXX compiler identification is GNU 7.4.0
+-- The C compiler identification is GNU 7.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring for standalone build.
+-- Found LLVM_CONFIG_PATH as /usr/bin/llvm-config
+CMake Warning at cmake/Modules/HandleOutOfTreeLLVM.cmake:70 (message):
+  Neither /usr/lib/llvm-6.0/lib/cmake/llvm nor
+  /usr/lib/llvm-6.0/build/cmake/modules found
+Call Stack (most recent call first):
+  cmake/Modules/HandleOutOfTreeLLVM.cmake:81 (find_llvm_parts)
+  cmake/Modules/HandleOutOfTreeLLVM.cmake:139 (configure_out_of_tree_llvm)
+  CMakeLists.txt:35 (include)
+
+
+-- Found PythonInterp: /usr/bin/python (found version "2.7.15") 
+-- Looking for fopen in c
+-- Looking for fopen in c - found
+-- Looking for __gcc_personality_v0 in gcc_s
+-- Looking for __gcc_personality_v0 in gcc_s - found
+-- Performing Test LIBCXX_SUPPORTS_NODEFAULTLIBS_FLAG
+-- Performing Test LIBCXX_SUPPORTS_NODEFAULTLIBS_FLAG - Success
+-- Performing Test LIBCXX_HAVE_CXX_ATOMICS_WITHOUT_LIB
+-- Performing Test LIBCXX_HAVE_CXX_ATOMICS_WITHOUT_LIB - Success
+-- Looking for __atomic_fetch_add_8 in atomic
+-- Looking for __atomic_fetch_add_8 in atomic - found
+-- Performing Test LIBCXX_HAS_WX_FLAG
+-- Performing Test LIBCXX_HAS_WX_FLAG - Failed
+-- Performing Test LIBCXX_HAS_NO_WX_FLAG
+-- Performing Test LIBCXX_HAS_NO_WX_FLAG - Failed
+-- Performing Test LIBCXX_HAS_EHSC_FLAG
+-- Performing Test LIBCXX_HAS_EHSC_FLAG - Failed
+-- Performing Test LIBCXX_HAS_NO_EHS_FLAG
+-- Performing Test LIBCXX_HAS_NO_EHS_FLAG - Failed
+-- Performing Test LIBCXX_HAS_NO_EHA_FLAG
+-- Performing Test LIBCXX_HAS_NO_EHA_FLAG - Failed
+-- Performing Test LIBCXX_HAS_NO_GR_FLAG
+-- Performing Test LIBCXX_HAS_NO_GR_FLAG - Failed
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Looking for ccos in m
+-- Looking for ccos in m - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Performing Test LIBCXX_SUPPORTS_STD_EQ_CXX11_FLAG
+-- Performing Test LIBCXX_SUPPORTS_STD_EQ_CXX11_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_STD_COLON_CXX11_FLAG
+-- Performing Test LIBCXX_SUPPORTS_STD_COLON_CXX11_FLAG - Failed
+-- Performing Test LIBCXX_SUPPORTS_NOSTDINCXX_FLAG
+-- Performing Test LIBCXX_SUPPORTS_NOSTDINCXX_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG
+-- Performing Test LIBCXX_SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_WALL_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WALL_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_WEXTRA_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WEXTRA_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_W_FLAG
+-- Performing Test LIBCXX_SUPPORTS_W_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_WWRITE_STRINGS_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WWRITE_STRINGS_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_WNO_UNUSED_PARAMETER_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WNO_UNUSED_PARAMETER_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_WNO_LONG_LONG_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WNO_LONG_LONG_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_WERROR_EQ_RETURN_TYPE_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WERROR_EQ_RETURN_TYPE_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_WEXTRA_SEMI_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WEXTRA_SEMI_FLAG - Failed
+-- Performing Test LIBCXX_SUPPORTS_WNO_LITERAL_SUFFIX_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WNO_LITERAL_SUFFIX_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_WNO_CXX14_COMPAT_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WNO_CXX14_COMPAT_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_WNO_NOEXCEPT_TYPE_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WNO_NOEXCEPT_TYPE_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_WNO_ERROR_FLAG
+-- Performing Test LIBCXX_SUPPORTS_WNO_ERROR_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_EHSC_FLAG
+-- Performing Test LIBCXX_SUPPORTS_EHSC_FLAG - Failed
+-- Performing Test LIBCXX_SUPPORTS_FPIC_FLAG
+-- Performing Test LIBCXX_SUPPORTS_FPIC_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_STD_EQ_CXX14_FLAG
+-- Performing Test LIBCXX_SUPPORTS_STD_EQ_CXX14_FLAG - Success
+-- Performing Test LIBCXX_SUPPORTS_STD_EQ_CXX17_FLAG
+-- Performing Test LIBCXX_SUPPORTS_STD_EQ_CXX17_FLAG - Success
+-- Adding Benchmark: algorithms.bench.cpp
+-- Adding Benchmark: algorithms.partition_point.bench.cpp
+-- Adding Benchmark: filesystem.bench.cpp
+-- Adding Benchmark: function.bench.cpp
+-- Adding Benchmark: ordered_set.bench.cpp
+-- Adding Benchmark: string.bench.cpp
+-- Adding Benchmark: stringstream.bench.cpp
+-- Adding Benchmark: unordered_set_operations.bench.cpp
+-- Adding Benchmark: util_smartptr.bench.cpp
+-- Adding Benchmark: vector_operations.bench.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zfc/workspace/libcxx-8.0.0.src/cmake-build-debug

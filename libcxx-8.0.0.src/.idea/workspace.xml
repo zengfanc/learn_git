@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="libcxx" targetName="cxx-benchmarks" />
+      <config projectName="libcxx" targetName="cxx_objects" />
+      <config projectName="libcxx" targetName="install-cxx-headers" />
+      <config projectName="libcxx" targetName="cxx_experimental" />
+      <config projectName="libcxx" targetName="cxx" />
+      <config projectName="libcxx" targetName="cxx_shared" />
+      <config projectName="libcxx" targetName="algorithms_libcxx" />
+      <config projectName="libcxx" targetName="unordered_set_operations_libcxx" />
+      <config projectName="libcxx" targetName="util_smartptr_libcxx" />
+      <config projectName="libcxx" targetName="cxx_static" />
+      <config projectName="libcxx" targetName="install-cxx-stripped" />
+      <config projectName="libcxx" targetName="ordered_set_libcxx" />
+      <config projectName="libcxx" targetName="install-libcxx-headers" />
+      <config projectName="libcxx" targetName="install-libcxx-headers-stripped" />
+      <config projectName="libcxx" targetName="cxx-headers" />
+      <config projectName="libcxx" targetName="install-cxx-headers-stripped" />
+      <config projectName="libcxx" targetName="vector_operations_libcxx" />
+      <config projectName="libcxx" targetName="string_libcxx" />
+      <config projectName="libcxx" targetName="algorithms.partition_point_libcxx" />
+      <config projectName="libcxx" targetName="install-libcxx" />
+      <config projectName="libcxx" targetName="filesystem_libcxx" />
+      <config projectName="libcxx" targetName="google-benchmark-libcxx" />
+      <config projectName="libcxx" targetName="install-cxx" />
+      <config projectName="libcxx" targetName="cxx_filesystem" />
+      <config projectName="libcxx" targetName="stringstream_libcxx" />
+      <config projectName="libcxx" targetName="function_libcxx" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d431ca3-b099-412f-b865-ce44e9b53420" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1PtecPSiF7ywhZhZ2UvERBzO4go" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.algorithms.partition_point_libcxx">
+    <configuration name="algorithms_libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="algorithms_libcxx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libcxx" RUN_TARGET_NAME="algorithms_libcxx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithms.partition_point_libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="algorithms.partition_point_libcxx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libcxx" RUN_TARGET_NAME="algorithms.partition_point_libcxx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cxx-benchmarks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="cxx-benchmarks" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cxx-headers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="cxx-headers" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="cxx" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cxx_experimental" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="cxx_experimental" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cxx_filesystem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="cxx_filesystem" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cxx_objects" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="cxx_objects" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cxx_shared" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="cxx_shared" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cxx_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="cxx_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="filesystem_libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="filesystem_libcxx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libcxx" RUN_TARGET_NAME="filesystem_libcxx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="function_libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="function_libcxx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libcxx" RUN_TARGET_NAME="function_libcxx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="google-benchmark-libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="google-benchmark-libcxx" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-cxx-headers-stripped" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="install-cxx-headers-stripped" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-cxx-headers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="install-cxx-headers" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-cxx-stripped" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="install-cxx-stripped" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-cxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="install-cxx" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-libcxx-headers-stripped" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="install-libcxx-headers-stripped" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-libcxx-headers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="install-libcxx-headers" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="install-libcxx" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ordered_set_libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="ordered_set_libcxx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libcxx" RUN_TARGET_NAME="ordered_set_libcxx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string_libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="string_libcxx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libcxx" RUN_TARGET_NAME="string_libcxx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stringstream_libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="stringstream_libcxx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libcxx" RUN_TARGET_NAME="stringstream_libcxx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unordered_set_operations_libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="unordered_set_operations_libcxx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libcxx" RUN_TARGET_NAME="unordered_set_operations_libcxx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="util_smartptr_libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="util_smartptr_libcxx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libcxx" RUN_TARGET_NAME="util_smartptr_libcxx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vector_operations_libcxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libcxx" TARGET_NAME="vector_operations_libcxx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libcxx" RUN_TARGET_NAME="vector_operations_libcxx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.algorithms.partition_point_libcxx" />
+      <item itemvalue="CMake Application.algorithms_libcxx" />
+      <item itemvalue="CMake Application.cxx-benchmarks" />
+      <item itemvalue="CMake Application.filesystem_libcxx" />
+      <item itemvalue="CMake Application.function_libcxx" />
+      <item itemvalue="CMake Application.google-benchmark-libcxx" />
+      <item itemvalue="CMake Application.ordered_set_libcxx" />
+      <item itemvalue="CMake Application.string_libcxx" />
+      <item itemvalue="CMake Application.stringstream_libcxx" />
+      <item itemvalue="CMake Application.unordered_set_operations_libcxx" />
+      <item itemvalue="CMake Application.util_smartptr_libcxx" />
+      <item itemvalue="CMake Application.vector_operations_libcxx" />
+      <item itemvalue="CMake Application.cxx-headers" />
+      <item itemvalue="CMake Application.install-cxx-headers" />
+      <item itemvalue="CMake Application.install-cxx-headers-stripped" />
+      <item itemvalue="CMake Application.install-libcxx-headers" />
+      <item itemvalue="CMake Application.install-libcxx-headers-stripped" />
+      <item itemvalue="CMake Application.cxx" />
+      <item itemvalue="CMake Application.cxx_experimental" />
+      <item itemvalue="CMake Application.cxx_filesystem" />
+      <item itemvalue="CMake Application.cxx_objects" />
+      <item itemvalue="CMake Application.cxx_shared" />
+      <item itemvalue="CMake Application.cxx_static" />
+      <item itemvalue="CMake Application.install-cxx" />
+      <item itemvalue="CMake Application.install-cxx-stripped" />
+      <item itemvalue="CMake Application.install-libcxx" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d431ca3-b099-412f-b865-ce44e9b53420" name="Default Changelist" comment="" />
+      <created>1566697898343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566697898343</updated>
+      <workItem from="1566697900824" duration="5198000" />
+      <workItem from="1567608171304" duration="1186000" />
+      <workItem from="1567609428309" duration="75000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/include/vector</url>
+          <line>465</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
